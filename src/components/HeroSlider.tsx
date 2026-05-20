@@ -47,7 +47,7 @@ const slides = [
   {
     src: '/project-9.jpg',
     alt: 'BHL large crossflow cooling tower installation',
-    imgStyle: { objectFit: 'cover' as const, objectPosition: 'top' },
+    imgStyle: { objectFit: 'contain' as const, objectPosition: 'center', backgroundColor: '#0d1f2d' },
   },
 ];
 
