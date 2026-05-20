@@ -5,24 +5,24 @@ import { useState, useEffect, useCallback } from 'react';
 
 const slides = [
   {
-    src: 'https://images.unsplash.com/photo-1513828583688-c52646db42da?w=900&q=80',
-    alt: 'Industrial cooling tower facility',
-    caption: 'Industrial Cooling Systems',
+    src: '/project-1.jpg',
+    alt: 'BHL cooling tower rooftop installation',
+    caption: 'Rooftop Cooling Tower Installation',
   },
   {
-    src: 'https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=900&q=80',
-    alt: 'Power plant cooling towers',
-    caption: 'Power Plant Applications',
+    src: '/project-2.jpg',
+    alt: 'BHL cooling tower piping system',
+    caption: 'Industrial Piping & Cooling Systems',
   },
   {
-    src: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=900&q=80',
-    alt: 'Large scale industrial facility',
-    caption: 'Large-Scale Industrial Projects',
+    src: '/project-3.jpg',
+    alt: 'BHL cooling tower city project',
+    caption: 'Commercial High-Rise Projects',
   },
   {
-    src: 'https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=900&q=80',
-    alt: 'Manufacturing and production facility',
-    caption: 'Manufacturing & Production',
+    src: '/project-4.jpg',
+    alt: 'BHL custom cooling tower unit',
+    caption: 'Custom BHL Cooling Tower Units',
   },
 ];
 
