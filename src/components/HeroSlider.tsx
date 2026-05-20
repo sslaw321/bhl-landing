@@ -8,21 +8,25 @@ const slides = [
     src: '/project-1.jpg',
     alt: 'BHL cooling tower rooftop installation',
     caption: 'Rooftop Cooling Tower Installation',
+    imgStyle: { objectFit: 'contain' as const, objectPosition: 'center', backgroundColor: '#0d1f2d' },
   },
   {
     src: '/project-2.jpg',
     alt: 'BHL cooling tower piping system',
     caption: 'Industrial Piping & Cooling Systems',
+    imgStyle: { objectFit: 'cover' as const, objectPosition: 'center' },
   },
   {
     src: '/project-3.jpg',
     alt: 'BHL cooling tower city project',
     caption: 'Commercial High-Rise Projects',
+    imgStyle: { objectFit: 'cover' as const, objectPosition: 'center' },
   },
   {
     src: '/project-4.jpg',
     alt: 'BHL custom cooling tower unit',
     caption: 'Custom BHL Cooling Tower Units',
+    imgStyle: { objectFit: 'cover' as const, objectPosition: 'center' },
   },
 ];
 
@@ -65,7 +69,7 @@ export default function HeroSlider() {
             src={slide.src}
             alt={slide.alt}
             fill
-            className="object-cover"
+            style={slide.imgStyle}
             priority={i === 0}
             sizes="50vw"
           />
