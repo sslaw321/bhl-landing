@@ -11,7 +11,6 @@ export default function Navbar() {
     { label: 'Products', href: '#products' },
     { label: 'Industries', href: '#industries' },
     { label: 'Why Us', href: '#why-us' },
-    { label: 'Testimonials', href: '#testimonials' },
     { label: 'Contact', href: '#contact' },
   ];
 
