@@ -78,13 +78,6 @@ export default function HeroSlider() {
         </div>
       ))}
 
-      {/* Caption */}
-      <div className="absolute bottom-12 left-0 right-0 px-8">
-        <p className="text-white text-sm font-semibold tracking-wide drop-shadow">
-          {slides[current].caption}
-        </p>
-      </div>
-
       {/* Dot indicators */}
       <div className="absolute bottom-5 left-0 right-0 flex justify-center gap-2">
         {slides.map((_, i) => (
